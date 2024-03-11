@@ -17,6 +17,7 @@ body {
 
 .container {
   display: flex;
+  justify-content: space-between;
   width: 90vw;
 }
 
@@ -31,7 +32,7 @@ body {
   flex: 0.5;
   margin: 10px;
   position: relative;
-  transition: all 0.7s ease-in;
+  transition: all 700ms ease-in;
 }
 
 .panel h3 {
