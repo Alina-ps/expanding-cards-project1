@@ -1,2 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-@import url("expanding-cards/expanding-cards.css");
+
+body {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul {
+  list-style-type: square;
+  font-size: 35px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.go-back {
+  position: fixed;
+  bottom: 4%;
+  left: 96%;
+}

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 
 * {
   box-sizing: border-box;
@@ -9,15 +9,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
-  /* vh - view port height */
   height: 100vh;
+  overflow: hidden;
   margin: 0;
+}
+
+.go-back {
+  position: fixed;
+  bottom: 4%;
+  left: 96%;
 }
 
 .container {
   display: flex;
-  justify-content: space-between;
   width: 90vw;
 }
 
@@ -32,7 +36,7 @@ body {
   flex: 0.5;
   margin: 10px;
   position: relative;
-  transition: all 700ms ease-in;
+  -webkit-transition: all 700ms ease-in;
 }
 
 .panel h3 {
