@@ -16,8 +16,16 @@ body {
 
 .go-back {
   position: fixed;
-  bottom: 4%;
-  left: 96%;
+  top: 2%;
+  left: 2%;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .go-back {
+    font-size: 20px;
+  }
 }
 
 .container {
@@ -40,12 +48,18 @@ body {
 }
 
 .panel h3 {
-  font-size: 24px;
+  font-size: 15px;
   position: absolute;
   bottom: 20px;
   left: 20px;
   margin: 0;
   opacity: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .panel h3 {
+    font-size: 20px;
+  }
 }
 
 .panel.active {

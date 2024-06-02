@@ -15,9 +15,3 @@ ul {
 a {
   text-decoration: none;
 }
-
-.go-back {
-  position: fixed;
-  bottom: 4%;
-  left: 96%;
-}

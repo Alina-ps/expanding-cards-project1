@@ -16,15 +16,22 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  /* vh - view port height */
   height: 100vh;
   margin: 0;
 }
 
 .go-back {
   position: fixed;
-  bottom: 4%;
-  left: 96%;
+  top: 2%;
+  left: 2%;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .go-back {
+    font-size: 20px;
+  }
 }
 
 .container {
@@ -36,8 +43,15 @@ body {
   justify-content: space-between;
   position: relative;
   margin-bottom: 30px;
-  max-width: 100%;
-  width: 350px;
+  /* max-width: 100%; */
+  /* width: 350px; */
+  max-width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .progress-container {
+    max-width: 350px;
+  }
 }
 
 .progress-container::before {
