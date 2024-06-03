@@ -1,7 +1,9 @@
-# 50 projects
+# 50 projects from udemy course
 
-1. expanding cards [View the expanding-cards folder](expanding-cards/)
-2. progress steps [View the progress-steps folder](progress-steps/)
-3. rotating navigation [View the rotating-navigation folder](rotating-navigation/)
-4. hidden search widget [View the hidden-search-widget folder](hidden-search-widget/)
-5. blurry loading [View the blurry-loading folder](blurry-loading/)
+1. [expanding cards](expanding-cards/)
+2. [progress steps](progress-steps/)
+3. [rotating navigation](rotating-navigation/)
+4. [hidden search widget](hidden-search-widget/)
+5. [blurry loading](blurry-loading/)
+6. [scroll animation](scroll-animation/)
+7. [split landing page](split-landing-page/)

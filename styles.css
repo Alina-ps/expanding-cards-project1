@@ -5,13 +5,33 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: #b7c4b8;
+  color: #434543;
 }
 
 ul {
-  list-style-type: square;
+  list-style-type: disc;
   font-size: 35px;
+  font-size: 20px;
 }
 
 a {
   text-decoration: none;
+  color: #434543;
+  transition: color 0.4s ease;
+  font-size: 20px;
+}
+
+a:hover {
+  color: rgb(209, 231, 231);
+}
+
+@media screen and (min-width: 768px) {
+  ul {
+    font-size: 40px;
+  }
+
+  a {
+    font-size: 40px;
+  }
 }
