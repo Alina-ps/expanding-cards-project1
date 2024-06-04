@@ -7,3 +7,6 @@
 5. [blurry loading](blurry-loading/)
 6. [scroll animation](scroll-animation/)
 7. [split landing page](split-landing-page/)
+8. [form wave animation](form-wave-animation/)
+9. [sound board](sound-board/)
+10. [dad jokes](dad-jokes/)
