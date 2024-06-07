@@ -10,3 +10,8 @@
 8. [form wave animation](form-wave-animation/)
 9. [sound board](sound-board/)
 10. [dad jokes](dad-jokes/)
+11. [event keycodes](event-keycodes/)
+12. [faq boxes](faq-boxes/)
+13. [random choice picker UI](random-choice-picker/)
+14. [animated navigation](animated-navigation/)
+15. [incrementing counter](incrementing-counter/)
